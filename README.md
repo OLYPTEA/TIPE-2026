@@ -37,7 +37,7 @@ Vous trouverez dans ce repository :
 -  Les **sources**
 -  Le PDF original de l’article de Gregory Galperin (dans le dossier `sources`)
 
-Tous les fichiers présents correspondent à la **version finale et à jour** du projet, (à part le logiciel de simulation où il reste quelques modidictations à faire).
+Tous les fichiers présents correspondent à la **version finale et à jour** du projet, (à part le logiciel de simulation où il reste quelques modifications à faire).
 
 ---
 
