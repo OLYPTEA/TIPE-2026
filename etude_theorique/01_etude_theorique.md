@@ -100,9 +100,9 @@ Ainsi, la dynamique des collisions peut être interprétée comme une succession
 
 Cette reformulation géométrique constitue le cœur du lien entre le nombre total de collisions et les décimales de $\pi$.
 
-## Analyse géométrique
+## Résultats numérique
 
-D'après le programme Python présent dans le dossier **CODE**, on peut tracer la vitesse du bloc 1 en fonction de la vitesse du bloc 2 *(ici $m_1 = 1\,kg$ et $m_2 = 100\,kg$)*.
+D'après le programme Python présent dans le dossier **CODE**, on peut tracer la vitesse du bloc 1 en fonction de la vitesse du bloc 2 *(ici m1 = 1Kg et m2 = 100Kg)*.
 
 On obtient la figure ci-dessous :
 
@@ -112,6 +112,54 @@ On obtient la figure ci-dessous :
 
 Les points représentent les collisions successives entre les deux blocs.  
 Le but est donc de **compter ces points** afin de déterminer le nombre total de collisions.
+
+## Interpretation géometrique
+
+Maintenant expliquons plus en details cette figure :
+  -Au debut, le bloc 2 a une vitesse négative donc on se situe sur la partie gauche du plan, le bloc 1 quant à lui est immobile donc v1 = 0, on par donc du point le plus à gauche du cercle (angle de pi).
+
+ <p align="center">
+  <img src="../ETAPE1.png" width="600">
+</p>
+
+
+  -Lors de la première collision le bloc 1 prend une certaine vitesse *(négative car vers la gauche)* donc le point va se deplacer quelque part la où y est négatif, tandis que le bloc 2 perd un peu de vitesse donc la coordonnée x va se rapprocher un peu de 0 :
+
+<p align="center">
+  <img src="../ETAPE2.png" width="600">
+</p>
+
+  On peux trouver sa position exact à partir de la conservation de quantité de mouvement, avec les changement de coordonnées :
+
+$$
+  m_1 v_1 + m_2 v_2 = P
+$$
+
+$$
+  (\sqrt{m_1})*(\sqrt{m_1} v_1) + (\sqrt{m_2})*(\sqrt{m_2} v_2) = P
+$$
+
+$$
+  (\sqrt{m_1})*x + (\sqrt{m_2})*y = P
+$$
+
+
+On a ici une **équation linéaire** en x et y  :
+
+<p align="center">
+  <img src="../ETAPE3.png" width="600">
+</p>
+
+Cette droite a pour pente :
+$$
+(-\sqrt{m_1/m_2})
+$$
+
+
+
+
+
+
 
 
 
