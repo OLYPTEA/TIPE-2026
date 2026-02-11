@@ -6,7 +6,7 @@
 
 Ce dépôt regroupe l’ensemble de mon **TIPE 2026**, consacré à la détermination de π à partir de l’étude théorique et expérimentale d’un système de collisions élastiques successives.
 
-Le projet s’appuie sur la modélisation d’un système dynamique composé de deux blocs en interaction, dont le nombre total de collisions encode les décimales de π lorsque le rapport des masses est judicieusement choisi.
+Le projet s’appuie sur la modélisation d’un système dynamique composé de deux blocs en interaction, dont le nombre total de collisions encode les décimales de π lorsque le rapport des masses spécifiques.
 
 Les objectifs sont :
 
@@ -37,7 +37,7 @@ Vous trouverez dans ce repository :
 -  Les **sources**
 -  Le PDF original de l’article de Gregory Galperin (dans le dossier `sources`)
 
-Tous les fichiers présents correspondent à la **version finale et à jour** du projet.
+Tous les fichiers présents correspondent à la **version finale et à jour** du projet, (à part le logiciel de simulation où il reste quelques modidictations à faire).
 
 ---
 
