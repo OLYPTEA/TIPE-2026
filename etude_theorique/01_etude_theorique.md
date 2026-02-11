@@ -100,19 +100,19 @@ Ainsi, la dynamique des collisions peut être interprétée comme une succession
 
 Cette reformulation géométrique constitue le cœur du lien entre le nombre total de collisions et les décimales de $\pi$.
 
-##  Analyse géométrique
+## Analyse géométrique
 
-D'après le programme Python présent dans le dossier **CODE**, on peut tracer la vitesse du bloc 1
-en fonction de la vitesse du bloc 2 *(ici $m_1 = 1\,kg$ et $m_2 = 100\,kg$)*.
+D'après le programme Python présent dans le dossier **CODE**, on peut tracer la vitesse du bloc 1 en fonction de la vitesse du bloc 2 *(ici $m_1 = 1\,kg$ et $m_2 = 100\,kg$)*.
 
-On obtient la figure suivante :
+On obtient la figure ci-dessous :
 
 <p align="center">
-  ![Portrait de phase](../ImagePythonTIPE.png)
+  <img src="../ImagePythonTIPE.png" width="600">
 </p>
 
 Les points représentent les collisions successives entre les deux blocs.  
 Le but est donc de **compter ces points** afin de déterminer le nombre total de collisions.
+
 
 
 
