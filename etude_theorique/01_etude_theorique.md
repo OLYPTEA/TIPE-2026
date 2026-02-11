@@ -165,10 +165,34 @@ Les points du cercle formés par l'intersection entre la droite et le cercle rep
   Et ansi de suite...
 
 
+Maintenant il faut compter le nombre de segments que l'on trace avant la **zone d'arrivé**, c'est à dire quand la vitesse du bloc1 est inferieur à la vitesse du bloc 2 :
+
+<p align="center">
+  <img src="../ETAPE5.png" width="600">
+</p>
 
 
+On peux **decouper** le cercle en plusieurs arcs de cercles, ces arcs semblent tous égaux en longeurs et ils le sont :
 
+<p align="center">
+  <img src="../ETAPE6.png" width="600">
+</p>
 
+Ont le montre avec le théorme des angles inscrits :
+
+<p align="center">
+  <img src="../ETAPE7.png" width="600">
+</p>
+
+Chaque arc a donc une longueur de 2θ, et on compte le nombre d'arcs de longueur 2θ que l'on peut mettre pour recouvrir le périmètre du cercle de sorte à ce qu'en ajouter un de plus nous ferait dépasser le périmètre du cercle. Cette derniere proposition est équivalente à :
+
+$$
+\sum_{k=1}^{N} 2\theta \;<\; 2\pi
+$$
+
+$$
+ N\theta \;<\; 2\pi
+$$
 
 
 
