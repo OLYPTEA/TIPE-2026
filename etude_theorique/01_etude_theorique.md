@@ -151,6 +151,7 @@ On a ici une **équation linéaire** en x et y  :
 </p>
 
 Cette droite a pour pente :
+
 $$
 (-\sqrt{m_1/m_2})
 $$
