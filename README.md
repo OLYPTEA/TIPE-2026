@@ -17,6 +17,18 @@ Les objectifs sont :
 
 ##  Contenu du dépôt
 
+---
+
+##  Interface de simulation
+
+<p align="center">
+  <img src="ImageLogicielTIPE.png" width="700">
+</p>
+
+Cette interface permet de modifier les paramètres du système (masses, vitesses initiales) et d’observer dynamiquement le nombre de collisions obtenues.
+
+---
+
 Vous trouverez dans ce repository :
 
 -  La **MCOT**
@@ -44,6 +56,18 @@ $$
 $$
 
 le nombre total de collisions correspond aux premières décimales de π.
+
+---
+
+##  Résultats numériques
+
+Portrait de phase obtenu dans les variables réduites :
+
+<p align="center">
+  <img src="ImagePythonTIPE.png" width="600">
+</p>
+
+On observe que la trajectoire dans l’espace $(\sqrt{m}u, \sqrt{M}v)$ suit une structure circulaire, traduisant la conservation de l’énergie.
 
 ---
 
