@@ -1,4 +1,4 @@
-## 🔬 Modélisation théorique du système
+##  Modélisation théorique du système
 
 Considérons deux blocs de masses respectives $m_1$ et $m_2$ en translation rectiligne suivant l’axe des $x$, avec :
 
@@ -14,7 +14,7 @@ On suppose que :
 
 ---
 
-## 📐 Théorèmes et relations fondamentales
+##  Théorèmes et relations fondamentales
 
 ### 🔹 Conservation de l’énergie cinétique
 
@@ -26,7 +26,7 @@ avec $E$ constante.
 
 ---
 
-### 🔹 Conservation de la quantité de mouvement
+###  Conservation de la quantité de mouvement
 
 $$
 m_1 v_1 + m_2 v_2 = P
@@ -36,7 +36,7 @@ avec $P$ constante.
 
 ---
 
-### 🔹 Théorème des angles inscrits
+###  Théorème des angles inscrits
 
 Soient $A$, $B$ et $M$ trois points distincts, et $\Gamma$ un cercle de centre $O$ passant par $A$ et $B$.
 
@@ -50,7 +50,7 @@ Autrement dit, l’angle au centre est égal au double de l’angle inscrit.
 
 ---
 
-## 💡 Idée clé : représentation géométrique
+##  Idée clé : représentation géométrique
 
 L’idée fondamentale consiste à représenter la vitesse du bloc 1 en fonction de la vitesse du bloc 2.
 
@@ -88,7 +88,7 @@ $$
 
 ---
 
-## 🎯 Interprétation géométrique
+##  Interprétation géométrique
 
 L’équation obtenue est celle d’un **cercle** dans le plan $(x, y)$.
 
