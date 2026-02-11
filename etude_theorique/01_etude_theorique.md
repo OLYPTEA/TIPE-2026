@@ -153,10 +153,16 @@ On a ici une **équation linéaire** en x et y  :
 Cette droite a pour pente :
 
 $$
-(-\sqrt{m_1/m_2})
+y = (-\sqrt{m_1/m_2})*x
 $$
 
+Les points du cercle formés par l'intersection entre la droite et le cercle reprénsentent un couple de vitesses qui ont à la fois la meme énergie cinétique et la meme quantité de mouvement. Ainsi quand les deux blocs s'entrechoquent ont sautent d'un point à l'autre.
 
+<p align="center">
+  <img src="../ETAPE4.png" width="600">
+</p>
+
+  Et ansi de suite...
 
 
 
