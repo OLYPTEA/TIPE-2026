@@ -107,7 +107,7 @@ D'après le programme Python présent dans le dossier **CODE**, on peut tracer l
 On obtient la figure ci-dessous :
 
 <p align="center">
-  <img src="../ImagePythonTIPE.png" width="600">
+  <img src="../Picture\ImagePythonTIPE.png" width="600">
 </p>
 
 Les points représentent les collisions successives entre les deux blocs.  
@@ -119,14 +119,14 @@ Maintenant expliquons plus en details cette figure :
   -Au debut, le bloc 2 a une vitesse négative donc on se situe sur la partie gauche du plan, le bloc 1 quant à lui est immobile donc v1 = 0, on par donc du point le plus à gauche du cercle (angle de pi).
 
  <p align="center">
-  <img src="../ETAPE1.png" width="600">
+  <img src="../Picture\ETAPE1.png" width="600">
 </p>
 
 
   -Lors de la première collision le bloc 1 prend une certaine vitesse *(négative car vers la gauche)* donc le point va se deplacer quelque part la où y est négatif, tandis que le bloc 2 perd un peu de vitesse donc la coordonnée x va se rapprocher un peu de 0 :
 
 <p align="center">
-  <img src="../ETAPE2.png" width="600">
+  <img src="../Picture\ETAPE2.png" width="600">
 </p>
 
   On peux trouver sa position exact à partir de la conservation de quantité de mouvement, avec les changement de coordonnées :
@@ -147,7 +147,7 @@ $$
 On a ici une **équation linéaire** en x et y  :
 
 <p align="center">
-  <img src="../ETAPE3.png" width="600">
+  <img src="../Picture\ETAPE3.png" width="600">
 </p>
 
 Cette droite a pour pente :
@@ -159,7 +159,7 @@ $$
 Les points du cercle formés par l'intersection entre la droite et le cercle reprénsentent un couple de vitesses qui ont à la fois la meme énergie cinétique et la meme quantité de mouvement. Ainsi quand les deux blocs s'entrechoquent ont sautent d'un point à l'autre.
 
 <p align="center">
-  <img src="../ETAPE4.png" width="600">
+  <img src="../Picture\ETAPE4.png" width="600">
 </p>
 
   Et ansi de suite...
@@ -168,20 +168,20 @@ Les points du cercle formés par l'intersection entre la droite et le cercle rep
 Maintenant il faut compter le nombre de segments que l'on trace avant la **zone d'arrivé**, c'est à dire quand la vitesse du bloc1 est inferieur à la vitesse du bloc 2 :
 
 <p align="center">
-  <img src="../ETAPE5.png" width="600">
+  <img src="../Picture\ETAPE5.png" width="600">
 </p>
 
 
 On peux **decouper** le cercle en plusieurs arcs de cercles, ces arcs semblent tous égaux en longeurs et ils le sont :
 
 <p align="center">
-  <img src="../ETAPE6.png" width="600">
+  <img src="../Picture\ETAPE6.png" width="600">
 </p>
 
 On le montre avec le théorme des angles inscrits :
 
 <p align="center">
-  <img src="../ETAPE7.png" width="600">
+  <img src="../Picture\ETAPE7.png" width="600">
 </p>
 
 Chaque arc a donc une longueur de 2θ, et on compte le nombre d'arcs de longueur 2θ que l'on peut mettre pour recouvrir le périmètre du cercle de sorte à ce qu'en ajouter un de plus nous ferait dépasser le périmètre du cercle. Cette derniere proposition est équivalente à :

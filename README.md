@@ -22,7 +22,7 @@ Les objectifs sont :
 ##  Interface de simulation
 
 <p align="center">
-  <img src="ImageLogicielTIPE.png" width="700">
+  <img src="Picture\ImageLogicielTIPE.png" width="700">
 </p>
 
 Cette interface permet de modifier les paramètres du système (masses, vitesses initiales) et d’observer dynamiquement le nombre de collisions obtenues.
@@ -64,7 +64,7 @@ le nombre total de collisions correspond aux premières décimales de π.
 Portrait de phase obtenu dans les variables réduites :
 
 <p align="center">
-  <img src="ImagePythonTIPE.png" width="600">
+  <img src="Picture\ImagePythonTIPE.png" width="600">
 </p>
 
 On observe que la trajectoire dans l’espace $(\sqrt{m}u, \sqrt{M}v)$ suit une structure circulaire, traduisant la conservation de l’énergie.
