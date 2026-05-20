@@ -1,3 +1,11 @@
+//=============================================================================================================
+// C'est le code utilisé pour la simulation Unity 3D de la méthode de calcul de π par collisions élastiques.
+// Simule la physique de deux blocs sur une ligne, avec des collisions élastiques entre eux et avec un mur fixe.
+// Y a pas grand chose à voir, c'est juste de la physique basique et de la gestion d'UI 
+//=============================================================================================================
+
+
+
 using System;
 using UnityEngine;
 using TMPro;

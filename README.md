@@ -61,13 +61,24 @@ le nombre total de collisions correspond aux premières décimales de π.
 
 ##  Résultats numériques
 
-Portrait de phase obtenu dans les variables réduites :
+Graphe obtenu dans les variables réduites :
 
 <p align="center">
   <img src="Picture\ImagePythonTIPE.png" width="600">
 </p>
 
 On observe que la trajectoire dans l’espace $(\sqrt{m}u, \sqrt{M}v)$ suit une structure circulaire, traduisant la conservation de l’énergie.
+
+-> Prise en compte de la dissipation de l'énergie ????? Coming Soon
+
+---
+
+## Éxperience 
+
+### Principe 
+<p align="center">
+  <img src="Picture\ModelTIPE2026OPTIQUE.png" width="600">
+</p>
 
 ---
 
