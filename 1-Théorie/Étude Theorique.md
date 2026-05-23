@@ -78,7 +78,7 @@ $$\arctan\left(\sqrt{\frac{m}{M}}\right) \approx \sqrt{\frac{m}{M}} = \frac{1}{1
 En injectant cette approximation dans l'expression de $N$, il vient :
 $$N \approx \left\lfloor \pi \times 10^n \right\rfloor$$
 
-Pour $n=1$ ($M = 100m$), $N = \lfloor 31,415... \rfloor = 31$ collisions, ce qui valide rigoureusement ton premier jalon expérimental.
+Pour $n=1$ ($M = 100m$), $N = \lfloor 31,415... \rfloor = 31$ collisions.
 
 ---
 
