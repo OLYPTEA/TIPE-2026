@@ -10,9 +10,7 @@ Dans un premier temps, j'ai modélisé un **banc de test classique** (Banc1) uti
 
 Pour atteindre notre objectif de **31 réflexions** (permettant d'approximer $\pi \approx 3.1$), une précision angulaire de l'ordre du milliradian est requise. Avec l'impression 3D standard, le jeu inhérent aux pièces assemblées aurait rendu le faisceau instable en sortie, chaque micro-vibration modifiant le nombre de rebonds.
 
-<p align="center">
-  <img src="Picture/Banc5.png" width="600" alt="Première modélisation du banc de test">
-</p>
+<img width="3840" height="2160" alt="banc5" src="https://github.com/user-attachments/assets/b9e5df4c-09c7-41f4-98ad-f2e0a900fa56" />
 
 #### 2. Deuxième itération : Guidage par liaison compliante ("Flexure")
 
@@ -29,14 +27,16 @@ La cinématique a été optimisée en plaçant la charnière flexible à l'apex 
 
 Bien que la déformation élastique du PETG offre une force de rappel naturelle, j'ai intégré **deux ressorts de compression en opposition**. Ce système applique une précharge constante qui annule le jeu de fond de filet (*backlash*) de la vis et garantit un contact mécanique optimal, fluide et répétable lors des phases de calibration.
 
-<p align="center">
-  <img src="Picture/Banc4.png" width="600" alt="Première modélisation du banc de test">
-</p>
+<img width="3840" height="2160" alt="banc4" src="https://github.com/user-attachments/assets/8105274c-6610-4744-95c5-adc5ac3e0843" />
 
 
 ### Réalisation du banc de test 
 
 Dans un premier temps j'ai découpé des "tranches" de miroirs (20cm*3cm) reprenants les cotes de la modélisation Fusion 
+
+<img width="3024" height="4032" alt="decoupe2" src="https://github.com/user-attachments/assets/c6c735a7-6af0-4efc-a65c-49b327e23d96" />
+
+<img width="3024" height="4032" alt="decoupe1" src="https://github.com/user-attachments/assets/c81e6ef3-8c6c-4e20-ac69-0e89245ebed7" />
 
 
 ---
