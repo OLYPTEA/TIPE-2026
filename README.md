@@ -87,9 +87,7 @@ Dans un premier temps, j'ai modélisé un **banc de test classique** (Banc1) uti
 
 Pour atteindre notre objectif de **31 réflexions** (permettant d'approximer $\pi \approx 3.1$), une précision angulaire de l'ordre du milliradian est requise. Avec l'impression 3D standard, le jeu inhérent aux pièces assemblées aurait rendu le faisceau instable en sortie, chaque micro-vibration modifiant le nombre de rebonds.
 
-<p align="center">
-  <img src="Picture/Banc5.png" width="600" alt="Première modélisation du banc de test">
-</p>
+<img width="3840" height="2160" alt="banc5" src="https://github.com/user-attachments/assets/ab1e4e8b-f6e1-45a1-8258-9025134874df" />
 
 #### 2. Deuxième itération : Guidage par liaison compliante ("Flexure")
 Pour nous affranchir des frottements (phénomène de *stick-slip*) et du jeu mécanique, j'ai réorienté la conception vers une **liaison compliante par guidage flexible (flexure)**, après étude de la documentation technique dédiée à l'optonique de haute précision.
@@ -104,10 +102,7 @@ La cinématique a été optimisée en plaçant la charnière flexible à l'apex 
 
 Bien que la déformation élastique du PETG offre une force de rappel naturelle, j'ai intégré **deux ressorts de compression en opposition**. Ce système applique une précharge constante qui annule le jeu de fond de filet (*backlash*) de la vis et garantit un contact mécanique optimal, fluide et répétable lors des phases de calibration.
 
-<p align="center">
-  <img src="Picture/Banc4.png" width="600" alt="Première modélisation du banc de test">
-</p>
-
+<img width="3840" height="2160" alt="banc4" src="https://github.com/user-attachments/assets/2ea050de-1a6e-4214-8760-eae790947921" />
 
 ---
 
