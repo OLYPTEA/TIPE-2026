@@ -78,13 +78,13 @@ $$\arctan\left(\sqrt{\frac{m}{M}}\right) \approx \sqrt{\frac{m}{M}} = \frac{1}{1
 En injectant cette approximation dans l'expression de $N$, il vient :
 $$N \approx \left\lfloor \pi \times 10^n \right\rfloor$$
 
-Pour $n=1$ ($M = 100m$), $N = \lfloor 31,415... \rfloor = 31$ collisions, ce qui valide rigoureusement ton premier jalon expérimental.
+Pour $n=1$ ($M = 100m$), $N = \lfloor 31,415... \rfloor = 31$ collisions.
 
 ---
 
 ## 4. Extension : Les Limites de l'Approche Mécanique et l'Effet de la Dissipation
 
-Pour élever cette étude aux standards d'une démarche de recherche, il est indispensable d'analyser le comportement du système en présence de non-idéalités, ce qui justifie scientifiquement ton changement de paradigme vers l'optique.
+Pour élever cette étude aux standards d'une démarche de recherche, il est indispensable d'analyser le comportement du système en présence de non-idéalités, ce qui justifie le changement de paradigme vers l'optique.
 
 ### 4.1. Modélisation de la Perte d'Énergie (Invariance de jauge brisée)
 Introduisons un coefficient de restitution cinématique $e \in [0, 1[$ pour caractériser l'inélasticité des chocs (où $e = 1$ est le cas idéal). Lors d'un choc, la vitesse relative après impact est amortie :
